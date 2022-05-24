@@ -61,5 +61,15 @@ body {
     &__txt {
       grid-area: 2 / 2 / 3 / 4;
     }
+
+    &.mosaic--mirror-x {
+      grid-template-columns: 1fr 0.8fr 1.7fr;
+      .mosaic__txt {
+        grid-area: 2 / 1 / 3 / 3;
+      }
+      .mosaic__img {
+        grid-area: 1 / 2 / 4 / 4;
+      }
+    }
   }
 }
