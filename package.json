@@ -1,0 +1,20 @@
+{
+  "name": "taller-sesion-09",
+  "version": "1.0.0",
+  "description": "Taller práctico maqueta con grid",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "bem"
+  ],
+  "author": "Iván Albizu",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel": "^2.5.0"
+  }
+}
